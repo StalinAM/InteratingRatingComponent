@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="32x32" href="./images/favicon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body>
+
+    <main>
+
+        <div id="main-screen" style="display: flex;">
+            <div class="star-container">
+                <img src="./images/icon-star.svg" alt="Orange star">
+            </div>
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feddback is appreciated to help us improve
+                our
+                offering!</p>
+            <ul class="option-container">
+                <input type="button" value="1">
+                <input type="button" value="2">
+                <input type="button" value="3">
+                <input type="button" value="4">
+                <input type="button" value="5">
+            </ul>
+            <input id="primary-button" type="submit" value="SUBMIT">
+        </div>
+
+        <div id="secondary-screen" style="display: none;">
+            <img src="./images/illustration-thank-you.svg" alt="smartphone with credit card">
+            <input id="displayVal" type="textfield" name="display" autocomplete="off" readonly>
+            <h1>Thank you!</h1>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get
+                in touch!</p>
+        </div>
+        <script src="./main.js"></script>
+    </main>
+
+    <footer>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/StalinAM/InteratingRatingComponent.git" target="_blank">StalinAM</a>.
+    </footer>
+
+</body>
+
+</html>
