@@ -22,7 +22,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ### Links
 
 - Solution URL: [GitHub](https://github.com/StalinAM/InteratingRatingComponent.git)
-- Live Site URL: [StalinAM](https://stalinam.github.io/QrCodeComponent/)
+- Live Site URL: [StalinAM](https://stalinam.github.io/InteratingRatingComponent/)
 
 ## My process
 
